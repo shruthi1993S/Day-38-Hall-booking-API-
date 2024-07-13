@@ -59,7 +59,7 @@ router.post('/customer-bookings', async (req, res) => {
         res.send({ count: bookings.length, bookings: bookingDetails });
     } catch (error) {
         // Handle any errors that occur during database query or processing
-        console.error('Error fetching bookings:', error);
+        console.error('Error fetching bookings:', error)
         res.status(500).send({ error: 'Error fetching bookings' });
     }
 });
