@@ -11,5 +11,5 @@ Description: Retrieves all bookings made by a specific customer.
 Endpoint: GET /rooms
 Description: Retrieves all rooms available in the system.
 5. List All Customers with Bookings
-Endpoint: POST /customers
+Endpoint: GET /customers
 Description: Retrieves all customers who have made bookings, along with their booking details.
