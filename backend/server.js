@@ -2,8 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const apiRoutes = require('./routes/api');
-require('dotenv').config(); // Ensure this is called early
-
+require('dotenv').config(); 
 const app = express();
 app.use(bodyParser.json());
 app.use('/api', apiRoutes);
